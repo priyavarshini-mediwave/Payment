@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-weight: 32;
+}
+#divmain {
+  border: 5px groove black;
+  background-color: white;
+  margin: 100px;
+  padding: 40px;
+}
+.Noti {
+  display: inline;
+  background-color: red;
+  border-radius: 15px;
+  width: 25px;
+  text-align: center;
+}
+#div1 {
+  display: flex;
+  justify-content: space-between;
+}
+#flag {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(226, 99, 53);
+  border-radius: 50%;
+}
+#country {
+  display: flex;
+}
+#things {
+  color: rgb(99, 97, 97);
+}
+.pay {
+  display: inline;
+  background-color: wheat;
+  border-radius: 15px;
+  width: 25px;
+  text-align: center;
+}
+#cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+#card1 {
+  background-color: rgb(210, 236, 228);
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  padding: 20px;
+}
+#card2 {
+  background-color: rgb(204, 154, 204);
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  padding: 20px;
+}
+#card3 {
+  background-color: rgb(190, 177, 245);
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  padding: 20px;
+}
+#card4 {
+  background-color: rgb(190, 190, 190);
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  padding: 20px;
+}
+#addsym {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(226, 215, 215);
+  border-radius: 50%;
+  text-align: center;
+}
+#gsym {
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+  border-radius: 50%;
+  text-align: center;
+}
+#lsym {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(216, 28, 60);
+  border-radius: 50%;
+  text-align: center;
+}
+#people {
+  display: flex;
+}
+#add {
+  margin-right: 30px;
+}
+#grace {
+  margin-right: 30px;
+}
+#phone {
+  border: 6px none;
+  border-top-style: outset;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  margin-left: -41px;
+  margin-right: -41px;
+  margin-bottom: -41px;
+  border-radius: 7px;
+}
+#home {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  text-align: center;
+}
+#cam {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+#power {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: blueviolet;
+}
+#Pupil {
+  height: 40px;
+  width: 80px;
+  background-color: green;
+  text-align: center;
+}
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: black;
+  border-radius: 15px;
+}
+#dots {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+@media (max-width: 1255px) {
+  #cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1000px) {
+  #cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 795px) {
+  #cards {
+    grid-template-columns: 1fr;
+  }
+}
